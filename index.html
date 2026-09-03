@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotel Los Pinos</title>
+
+    <style>
+
+        /* ------------------------------
+           ESTILOS GENERALES
+        ------------------------------ */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+
+        /* ------------------------------
+           ENCABEZADO
+        ------------------------------ */
+
+        header {
+            background-color: #17324d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+
+        /* ------------------------------
+           BARRA DE NAVEGACIÓN
+        ------------------------------ */
+
+        nav {
+            background-color: #0f2538;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #f2c14e;
+        }
+
+
+        /* ------------------------------
+           PRESENTACIÓN
+        ------------------------------ */
+
+        .presentacion {
+            background-color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .presentacion h1 {
+            color: #17324d;
+            font-size: 36px;
+        }
+
+        .presentacion p {
+            font-size: 18px;
+        }
+
+
+        /* ------------------------------
+           IMAGEN PRINCIPAL
+        ------------------------------ */
+
+        .imagen-principal {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+
+        /* ------------------------------
+           HABITACIONES
+        ------------------------------ */
+
+        .habitaciones {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .habitaciones h2 {
+            color: #17324d;
+        }
+
+
+        /* ------------------------------
+           CALESITA
+        ------------------------------ */
+
+        .calesita {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .habitacion {
+            background-color: white;
+            width: 300px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #aaa;
+        }
+
+        .habitacion img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .boton {
+            background-color: #17324d;
+            color: white;
+            border: none;
+            padding: 12px 18px;
+            border-radius: 50%;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .boton:hover {
+            background-color: #f2c14e;
+            color: #17324d;
+        }
+
+
+        /* ------------------------------
+           CONTACTO
+        ------------------------------ */
+
+        footer {
+            background-color: #17324d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 8px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- ENCABEZADO -->
+
+    <header>
+
+        <div class="logo">
+            🏨 Hotel Los Pinos
+        </div>
+
+        <p>Un lugar para descansar y disfrutar</p>
+
+    </header>
+
+
+    <!-- BARRA DE NAVEGACIÓN -->
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+
+        <a href="#habitaciones">Habitaciones</a>
+
+        <a href="#servicios">Servicios</a>
+
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+
+    <!-- PRESENTACIÓN -->
+
+    <section class="presentacion" id="inicio">
+
+        <h1>Bienvenidos al Hotel Los Pinos</h1>
+
+        <p>
+            Disfrutá de una estadía cómoda,
+            tranquila y rodeada de naturaleza.
+        </p>
+
+        <img
+            class="imagen-principal"
+            src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+            alt="Hotel">
+
+    </section>
+
+
+    <!-- HABITACIONES -->
+
+    <section class="habitaciones" id="habitaciones">
+
+        <h2>Nuestras habitaciones</h2>
+
+        <p>
+            Conocé algunas de las habitaciones
+            disponibles en nuestro hotel.
+        </p>
+
+
+        <!-- CALESITA -->
+
+        <div class="calesita">
+
+            <button class="boton">
+                ❮
+            </button>
+
+
+            <article class="habitacion">
+
+                <img
+                    src="https://images.unsplash.com/photo-1611892440504-42a792e24d32"
+                    alt="Habitación doble">
+
+                <h3>Habitación Doble</h3>
+
+                <p>
+                    Habitación cómoda para dos personas.
+                </p>
+
+                <strong>
+                    Desde $80.000 por noche
+                </strong>
+
+            </article>
+
+
+            <article class="habitacion">
+
+                <img
+                    src="https://images.unsplash.com/photo-1590490360182-c33d57733427"
+                    alt="Habitación familiar">
+
+                <h3>Habitación Familiar</h3>
+
+                <p>
+                    Espacio amplio para toda la familia.
+                </p>
+
+                <strong>
+                    Desde $120.000 por noche
+                </strong>
+
+            </article>
+
+
+            <article class="habitacion">
+
+                <img
+                    src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b"
+                    alt="Suite">
+
+                <h3>Suite</h3>
+
+                <p>
+                    Una habitación especial para disfrutar.
+                </p>
+
+                <strong>
+                    Desde $160.000 por noche
+                </strong>
+
+            </article>
+
+
+            <button class="boton">
+                ❯
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICIOS -->
+
+    <section class="presentacion" id="servicios">
+
+        <h2>Servicios</h2>
+
+        <p>✔ Desayuno incluido</p>
+
+        <p>✔ Wi-Fi gratuito</p>
+
+        <p>✔ Piscina</p>
+
+        <p>✔ Estacionamiento</p>
+
+    </section>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer id="contacto">
+
+        <h2>Contacto</h2>
+
+        <p>📍 Av. Los Pinos 1234</p>
+
+        <p>📞 Teléfono: 11-4567-8900</p>
+
+        <p>✉ Email: contacto@hotellospinos.com</p>
+
+        <p>
+            © 2026 Hotel Los Pinos
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+
